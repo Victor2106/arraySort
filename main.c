@@ -28,8 +28,8 @@ void quickSort(int* array, int low, int high)
     {
         int index = partition(array, low, high);
 
-        quickSort(array, low,index - 1);
-        quickSort(array,index + 1, high);
+        quickSort(array, low, index - 1);
+        quickSort(array, index + 1, high);
     }
 }
 
