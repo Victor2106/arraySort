@@ -153,5 +153,7 @@ int main() {
 
     displayArray(array, size);
 
+    free(array);
+
     return 0;
 }
